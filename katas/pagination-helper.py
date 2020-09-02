@@ -11,8 +11,7 @@ class PaginationHelper:
   
   # returns the number of items within the entire collection
   def item_count(self):
-    return len(self.collection)
-      
+    return len(self.collection)   
   
   # returns the number of pages
   def page_count(self):
