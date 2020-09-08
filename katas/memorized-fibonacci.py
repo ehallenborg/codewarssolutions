@@ -28,12 +28,13 @@ def fibonacci_with_import(n):
 '''
 xrange solution - only in python2
 so for python3 - use different solution since this will cause a timeout with just range
-'''
+
 def fibonacci_xrange(n):
     cache = [0,1]
     for i in xrange(2, n+1):
         cache.append(cache[i-1] + cache[i-2])
     return cache[n]
+'''
 
 '''
 def within a def
